@@ -14,14 +14,18 @@
 
 package com.github.googlecodelabs.icon_shop;
 
+import com.google.firebase.analytics.FirebaseAnalytics;
+import com.google.firebase.analytics.FirebaseAnalytics.Event;
+import com.google.firebase.analytics.FirebaseAnalytics.Param;
+
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v4.app.NavUtils;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
+import androidx.core.app.NavUtils;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -55,8 +59,18 @@ public class ItemCardActivity extends AppCompatActivity {
                             @Override
                             public void onClick(View view) {
                                 NavUtils.navigateUpFromSameTask(ItemCardActivity.this);
+//added
+                                Bundle params = new Bundle();
+                                params.putString( Param.ITEM_ID, mItem.mName );
+                                params.putString( Param.ITEM_CATEGORY, "icon" );
+                                params.putLong( Param.VALUE, mItem.mPrice );
+                                FirebaseAnalytics analytics = FirebaseAnalytics.getInstance( ItemCardActivity.this );
+                                analytics.logEvent( Event.ADD_TO_CART, params );
+                                //added
                             }
                         });
+
+
                 ok.setCallback(new Snackbar.Callback() {
                     @Override
                     public void onDismissed(Snackbar snackbar, int event) {

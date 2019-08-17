@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "223414892084",
+    "firebase_url": "https://icon-shop-250000.firebaseio.com",
+    "project_id": "icon-shop-250000",
+    "storage_bucket": "icon-shop-250000.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223414892084:android:2a70ae1029a731d9",
+        "android_client_info": {
+          "package_name": "com.github.googlecodelabs.icon_shop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223414892084-tl4hghn7246f4rv5fud6k8o9de7lm5sh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjVei2kVhVUDBwePxpDIwa6slGIwateDo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223414892084-tl4hghn7246f4rv5fud6k8o9de7lm5sh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
