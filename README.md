@@ -1,6 +1,12 @@
-# icon-shop
+# Implementation of local differential privacy for android app with  Google Analytics/Firebase
 
-This folder contains the source code for a Google I/O 2016 codelab.
+Following [codelab tutorial.](https://codelabs.developers.google.com/codelabs/firebase-analytics/index.html?index=..%2F..index#0) I was able to log in analytics events in a sample android app.
+
+![IconshopApp](https://user-images.githubusercontent.com/29640816/63233808-796c5c80-c1ef-11e9-99cb-39d18c93f8a8.gif)
+![FirebaseDashboard](https://user-images.githubusercontent.com/29640816/63233817-84bf8800-c1ef-11e9-87d9-99c5e375adee.gif)
+<img width="1574" alt="FirebaseEvents" src="https://user-images.githubusercontent.com/29640816/63233821-8d17c300-c1ef-11e9-90ac-62fade665b80.png">
+
+
 
 ### License
 
