@@ -1,6 +1,6 @@
 # Implementation of local differential privacy for android app with  Google Analytics/Firebase
 
-Following [codelab tutorial.](https://codelabs.developers.google.com/codelabs/firebase-analytics/index.html?index=..%2F..index#0) I was able to log in analytics events in a sample android app.
+Following [codelab tutorial.](https://codelabs.developers.google.com/codelabs/firebase-analytics/index.html?index=..%2F..index#0), I have implemented Google Analytics with Firebase. I was able to log in analytics events in a sample android app.
 
 ![IconshopApp](https://user-images.githubusercontent.com/29640816/63233808-796c5c80-c1ef-11e9-99cb-39d18c93f8a8.gif)
 ![FirebaseDashboard](https://user-images.githubusercontent.com/29640816/63233817-84bf8800-c1ef-11e9-87d9-99c5e375adee.gif)
