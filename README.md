@@ -24,6 +24,12 @@ The technique used to add randomness to the response is following instructions (
 
 Thus, each answer is now protected with "plausible deniability". If thee answer "Yes" to the question "have you committed X crime?", then it might becasue they actually did, or it might be becasue they are answering according to a random coin flip. Each person has a high degree of protection. Furthermore, we can recover the underlying statistics with some accuracy, as the "true statistics" are simply averaged with a 50% probability. Thus, if we collect a bunch of samples and it turns out that 60% of people answer yes, then we know that the TRUE distribution is actually centered around 70%, because 70% averaged wtih 50% (a coin flip) is 60% which is the result we obtained.
 
+I have implemented local differential privacy in onclick method.
+<img width="734" alt="Screen Shot 2019-08-19 at 7 58 42 PM" src="https://user-images.githubusercontent.com/29640816/63311924-fd404a80-c2bc-11e9-9571-27d50b44f39d.png">
+
+
+
+
 
 
 ### License
