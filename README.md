@@ -6,6 +6,13 @@ Following [codelab tutorial.](https://codelabs.developers.google.com/codelabs/fi
 ![FirebaseDashboard](https://user-images.githubusercontent.com/29640816/63233817-84bf8800-c1ef-11e9-87d9-99c5e375adee.gif)
 <img width="1574" alt="FirebaseEvents" src="https://user-images.githubusercontent.com/29640816/63233821-8d17c300-c1ef-11e9-90ac-62fade665b80.png">
 
+From [https://firebase.google.com/support/privacy] "Firebase customers typically act as the "data controller" for any personal data about their end-users they provide to Google in connection with their use of Firebase, and Google is, generally, a "data processor".
+This means that data is under the customer's control. Controllers are responsible for obligations like fulfilling an individual's rights with respect to their personal data."
+
+To be able to use Google Analytics I as developer have to make sure that I have the right consents in place for users who download my app.
+
+I have decided to explore the possibility of offering app users local differential privacy.
+
 
 
 ### License
